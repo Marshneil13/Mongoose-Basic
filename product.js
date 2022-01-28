@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/shopApp')
+mongoose.connect('mongodb://localhost:17017/shopApp')//works on localhost:27017
 .then(()=>{
     console.log('CONNECTION OPEN!!!');
 })
